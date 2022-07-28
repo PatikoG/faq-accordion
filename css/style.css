@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.infobox{
+    width: 327px;
+    height: 535px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+    border-radius: 23px;
+}
+
+.imagesspace{
+height: 100px;
+}
+
+.mobilephoto{
+   width: 236.85px;
+   height: 139.37px; 
+   transform: translate(20% , -56%);
+}
+
+.phoneshadowpattern{
+    width: 187px;
+     
+    transform: translate(38% , -175%);
+}
+
+
+.alldivsinfoshere{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+
+.desktopimg{
+    display: none;
+}
+
+.desktopbox{
+    display: none;
+}
+
+
+.desktoppattern{
+    display: none;
+}
+
+
+
+
+.faqheader{
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1E1F36;
+    margin-bottom:40px ;
+}
+
+.forheight{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+    padding-left: 33px;
+    transition: 2s;
+}
+
+
+
+.forheight img{
+    margin-right: 24px;
+}
+
+
+.questionarrow{
+    display: flex;
+    align-items: center;
+    
+
+
+}
+
+.accord{
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #787887;
+    padding-top: 13px;
+    width: 279px;
+    height: 36px;
+    display: none;
+    padding-left: 10px;
+    transition: 2s
+    ;
+}
+
+.strip{
+    width: 279px;
+    height: 1px;
+    background: #E8E8EA;
+    margin-top: 18px;
+    margin-bottom: 19px;
+}
+
+
+.invitemember{
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #4B4C5F;
+     
+    width: 250px;
+}
+
+.invitemember:hover{
+    color: #F47B56;
+    cursor: pointer;
+}
+
+.rotated{
+    transform: rotate(180deg);
+}
+
+
+.strongtext{
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E1F36;
+     
+}
+
+
+@media screen and (min-width:930px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .infobox{
+        width: 920px;
+        height: 509px;
+        overflow: hidden;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .mobilephoto{
+        display: none;
+    }
+
+    .phoneshadowpattern{
+        display: none;
+    }
+
+    .alldivsinfoshere{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .forheight{
+        display: flex;
+        align-items: flex-end;
+        padding-right: 100px;
+
+    }
+
+    .strip{
+        align-self: flex-end;
+        margin-right: 115px;
+
+    }
+
+    .accord{
+        align-self: flex-end;
+        margin-right: 115px;
+    }
+
+    .faqheader{
+        margin-right: 300px;
+    }
+
+    .desktopimg{
+        display: block;
+        transform: translate(-17% , 25%);
+        z-index: 2;
+        
+    
+    }
+    
+    .desktopbox{    
+        display: block;
+        transform: translate(-50%, -75%);
+        position: absolute;
+        
+        
+}
+
+
+    .imagesspace{
+        width: 350px;
+    }
+        
+    
+    
+    
+    
+    .desktoppattern{
+        display: block; 
+        transform: translate(-59% , -65%);
+        z-index: 1;
+        
+    }
+
+    .strongtext{
+        font-family: 'Kumbh Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #1E1F36;
+         
+    }
+
+    
+
+}
